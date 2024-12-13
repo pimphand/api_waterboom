@@ -1,0 +1,35 @@
+{
+  "development": {
+    "username": "sammy",
+    "password": "password",
+    "database": "waterboom",
+    "host": "174.138.29.77virte",
+    "dialect": "mysql",
+    "timezone": "+07:00",
+    "dialectOptions": {
+      "useUTC": false
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+07:00",
+    "dialectOptions": {
+      "useUTC": false
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+07:00",
+    "dialectOptions": {
+      "useUTC": false
+    }
+  }
+}
