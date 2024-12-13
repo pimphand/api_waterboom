@@ -8,7 +8,7 @@ const postsRoute = require("./routes/posts");
 const userRoute = require("./routes/user");
 const imageRoute = require("./routes/images");
 const agendaRoute = require("./routes/agenda");
-const typeTickets = require("./routes/TypeTicket");
+const typeTickets = require("./routes/typeTicket");
 const ticketsRoute = require("./routes/order");
 
 app.use(cors()); // Allow all origins by default
